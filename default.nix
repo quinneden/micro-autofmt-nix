@@ -33,7 +33,7 @@ stdenv.mkDerivation (finalAttrs: {
   src = fetchgit {
     url = "https://github.com/quinneden/micro-autofmt";
     rev = "refs/tags/${finalAttrs.version}";
-    hash = "sha256-9SggIGWb718yKN5PvebbwYH1EIT/Weu4DkpRJntw5B8=";
+    hash = "sha256-s9upsVOkbQFzdJkgEP/mPd7r2gaO/nbKBU55elXQ4oc=";
   };
   buildInputs = [ nixfmt-shim ];
   makeFlags = [
